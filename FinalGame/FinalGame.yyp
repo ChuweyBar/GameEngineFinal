@@ -20,6 +20,7 @@
     {"id":{"name":"pew","path":"sounds/pew/pew.yy",},"order":0,},
     {"id":{"name":"obj_p1","path":"objects/obj_p1/obj_p1.yy",},"order":0,},
     {"id":{"name":"spr_sqrR","path":"sprites/spr_sqrR/spr_sqrR.yy",},"order":0,},
+    {"id":{"name":"chillbeat","path":"sounds/chillbeat/chillbeat.yy",},"order":1,},
     {"id":{"name":"obj_diff3","path":"objects/obj_diff3/obj_diff3.yy",},"order":11,},
     {"id":{"name":"spr_circleP","path":"sprites/spr_circleP/spr_circleP.yy",},"order":2,},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":3,},
