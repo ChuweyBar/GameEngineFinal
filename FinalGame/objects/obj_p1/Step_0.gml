@@ -1,27 +1,40 @@
 /// @description Insert description here
 // You can write your code in this editor
+spd = 0.75;
+if keyboard_check(vk_lshift) {
+	spd *= 1.5;
+}
 
-speed = 2;
-if (keyboard_check(ord("A"))) {
-	if (keyboard_check(ord("W"))) {
-		direction = 135;
-	} else if (keyboard_check(ord("S"))) {
-		direction = 225;
-	} else {
-		direction = 180;
-	}
-} else if (keyboard_check(ord("D"))) {
-	if (keyboard_check(ord("W"))){
-		direction = 45;
-	} else if (keyboard_check(ord("S"))) {
-		direction = 315;
-	} else {
-		direction = 0;
-	}
-} else if (keyboard_check(ord("W"))) {
-	direction = 90;
-} else if (keyboard_check(ord("S"))) {
-	direction = 270;
-}else {
-	speed = 0;
+if keyboard_check(ord("A"))
+{
+    x = x - spd;
+}
+if keyboard_check(ord("D"))
+{
+    x = x + spd;
+}
+if keyboard_check(ord("W"))
+{
+    y = y - spd;
+}
+if keyboard_check(ord("S"))
+{
+    y = y + spd;
+}
+
+if place_meeting(x,y,obj_wall_top) {
+	y = y + spd;
+}
+if place_meeting(x,y,obj_wall_bot) {
+	y = y - 5;
+}
+if place_meeting(x,y,obj_wall_left) {
+	x = x + 5;
+}
+if place_meeting(x,y,obj_wall_right) {
+	x = x - 5;
+}
+
+if place_meeting(x,y,obj_enemy) {
+	game_end();
 }

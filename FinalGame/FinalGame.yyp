@@ -1,11 +1,28 @@
 {
   "resources": [
+    {"id":{"name":"obj_wall_bot","path":"objects/obj_wall_bot/obj_wall_bot.yy",},"order":3,},
+    {"id":{"name":"spr_base","path":"sprites/spr_base/spr_base.yy",},"order":7,},
+    {"id":{"name":"obj_wall_top","path":"objects/obj_wall_top/obj_wall_top.yy",},"order":4,},
+    {"id":{"name":"obj_diff1","path":"objects/obj_diff1/obj_diff1.yy",},"order":9,},
+    {"id":{"name":"spr_sqrRP","path":"sprites/spr_sqrRP/spr_sqrRP.yy",},"order":5,},
+    {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":8,},
+    {"id":{"name":"spr_sqrBP","path":"sprites/spr_sqrBP/spr_sqrBP.yy",},"order":4,},
+    {"id":{"name":"obj_wall_left","path":"objects/obj_wall_left/obj_wall_left.yy",},"order":5,},
+    {"id":{"name":"obj_base","path":"objects/obj_base/obj_base.yy",},"order":7,},
     {"id":{"name":"obj_p2","path":"objects/obj_p2/obj_p2.yy",},"order":1,},
+    {"id":{"name":"Room0","path":"rooms/Room0/Room0.yy",},"order":2,},
     {"id":{"name":"spr_sqrB","path":"sprites/spr_sqrB/spr_sqrB.yy",},"order":1,},
+    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":8,},
+    {"id":{"name":"obj_wall_right","path":"objects/obj_wall_right/obj_wall_right.yy",},"order":6,},
     {"id":{"name":"obj_projectile","path":"objects/obj_projectile/obj_projectile.yy",},"order":2,},
+    {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},"order":6,},
+    {"id":{"name":"obj_diff2","path":"objects/obj_diff2/obj_diff2.yy",},"order":10,},
+    {"id":{"name":"pew","path":"sounds/pew/pew.yy",},"order":0,},
     {"id":{"name":"obj_p1","path":"objects/obj_p1/obj_p1.yy",},"order":0,},
     {"id":{"name":"spr_sqrR","path":"sprites/spr_sqrR/spr_sqrR.yy",},"order":0,},
+    {"id":{"name":"obj_diff3","path":"objects/obj_diff3/obj_diff3.yy",},"order":11,},
     {"id":{"name":"spr_circleP","path":"sprites/spr_circleP/spr_circleP.yy",},"order":2,},
+    {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":3,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -28,6 +45,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room0","path":"rooms/Room0/Room0.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
